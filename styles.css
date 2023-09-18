@@ -7,16 +7,14 @@ body {
   background-color:rgb(135, 206, 235);
 }
 
-/* Article with Paragraphs */
-article {
-  margin: 20px;
-}
-
 /* First paragraph: White text on a black background (use :first-child) */
 article p:first-child {
   background-color: black;
   color: white;
   }
+article{
+	text-align : left:
+}
 
 /* Second paragraph: Standard text color (use :nth-child(2)) */
 article p:nth-child(2) {
