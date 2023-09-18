@@ -1,10 +1,10 @@
 /* Set the entire page's background color to rgb(135, 206, 235) using the :root pseudo-class */
-:root {
+/* :root {
   --page-background-color: rgb(135, 206, 235);
-}
+} */
 
 body {
-  background-color: var(--page-background-color);
+  background-color:rgb(135, 206, 235);;
 }
 
 /* Article with Paragraphs */
@@ -16,19 +16,16 @@ article {
 article p:first-child {
   background-color: black;
   color: white;
-  padding: 10px;
-}
+  }
 
 /* Second paragraph: Standard text color (use :nth-child(2)) */
 article p:nth-child(2) {
   color: inherit; /* This will use the standard text color defined earlier */
-  padding: 10px;
 }
 
 /* Third paragraph: Red text (use :last-child) */
 article p:last-child {
   color: red;
-  padding: 10px;
 }
 
 li {
