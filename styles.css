@@ -1,10 +1,10 @@
 /* Set the entire page's background color to rgb(135, 206, 235) using the :root pseudo-class */
-/* :root {
+:root {
   --page-background-color: rgb(135, 206, 235);
-} */
+}
 
 body {
-  background-color:rgb(135, 206, 235);
+  background-color: rgb(135, 206, 235);
 }
 
 /* First paragraph: White text on a black background (use :first-child) */
