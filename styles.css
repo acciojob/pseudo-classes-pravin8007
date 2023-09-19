@@ -1,4 +1,8 @@
 /* Set the entire page's background color to rgb(135, 206, 235) using the :root pseudo-class */
+*{
+	margin:0;
+/* 	padding:0; */
+}
 :root {
   --page-background-color: rgb(135, 206, 235);
 }
